@@ -49,7 +49,7 @@ def get_example_response(query: str) -> ResponseModel:
         )
 
 
-@app.get("/api")
+@app.post("/api")
 async def read_json(model: QueryModel):
     if model.query != "why did he die":
         raise HTTPException(status_code=500, detail="Endpoint not implemented. Try with query='why did he die'")
