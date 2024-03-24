@@ -77,7 +77,14 @@ async function performSearch(event) {
         //Make the divs in popup
         const newDiv = document.createElement("button");
         newDiv.className = "result-item"; // Assign a class name for styling
-        newDiv.textContent = text;
+        newDiv.textContent = '"' + text + '"';
+        newDiv.style.fontWeight = 'bold'
+
+        const explanationDiv = document.createElement("div")
+        explanationDiv.className = "explanation-item"
+        explanationDiv.textContent = row.explanation
+        explanationDiv.style.fontWeight = 'normal'
+        newDiv.appendChild(explanationDiv)
 
         newDiv.addEventListener('click', function() {
             ids.forEach(item => {

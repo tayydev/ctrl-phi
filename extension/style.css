@@ -66,11 +66,16 @@ body {
 }
 
 .result-item {
-    border: 1px solid #ccc;
+    outline: none;
+    border: 0;
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #F9F9F9;
+    background: #F6F6F6;
     border-radius: 5px;
+}
+
+.explanation-item {
+    color: #545454;
 }
 
 .result-item:hover {
