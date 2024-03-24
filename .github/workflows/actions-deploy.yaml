@@ -22,19 +22,24 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ./website
 
       - name: Build and Export the Next.js project
         run: npm run build
+        working-directory: ./website
+
 
       - name: Create .nojekyll file
         run: touch ./out/.nojekyll
+        working-directory: ./website
 
       - name: Create CNAME file
         run: echo "ctrl-phi.app" > ./out/CNAME # Change to your domain
+        working-directory: ./website
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.5.0
         with:
           branch: gh-pages # The branch the action should deploy to.
-          folder: out # The folder the action should deploy.
+          folder: server/out # The folder the action should deploy.
           clean: true # Automatically remove deleted files from the deploy branch
