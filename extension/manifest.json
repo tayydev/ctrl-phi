@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "HTML Scraper",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "scripting",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+    "icons": {
+      "16": "images/phi16.png",
+      "32": "images/phi32.png",
+      "48": "images/phi48.png",
+      "128": "images/phi128.png"
+  }
+}
