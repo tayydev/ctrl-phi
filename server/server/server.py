@@ -6,6 +6,7 @@ from SearchAgent import SearchAgent
 
 app = FastAPI()
 
+
 # Configure CORS middleware with broad settings
 app.add_middleware(
     CORSMiddleware,
@@ -15,6 +16,8 @@ app.add_middleware(
     allow_methods=["*"],  # Allow all HTTP methods
     allow_headers=["*"],  # Allow all headers
 )
+
+NUM_RESULTS = 3
 
 
 def get_example_response(query: str) -> ResponseModel:
@@ -46,10 +49,12 @@ def get_example_response(query: str) -> ResponseModel:
 
 @app.post("/realapi")
 async def read_json(model: QueryModel):
-    agent = SearchAgent(3)
-    res = agent.search(
-        reference_text=model.content, query=model.query)
-    return res
+    try:
+        agent = SearchAgent(NUM_RESULTS)
+        res = agent.search(reference_text=model.content, query=model.query)
+        return res
+    except Exception:
+        return ResponseModel(query=model.query, results=[])
 
 
 @app.post("/api")

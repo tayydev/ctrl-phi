@@ -13,6 +13,9 @@ openai = "^1.14.2"
 anthropic = "^0.21.3"
 python-dotenv = "^1.0.1"
 google-generativeai = "^0.4.1"
+transformers = "^4.39.1"
+torch = "^2.2.1"
+tiktoken = "^0.6.0"
 
 
 [build-system]

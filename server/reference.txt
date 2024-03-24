@@ -1,3 +1,4 @@
+
 Main menu
 
 WikipediaThe Free Encyclopedia
@@ -357,3 +358,264 @@ This article has an unclear citation style. The references used may be made clea
  Church 1936
  Grime, James (February 2012). "What Did Turing Do for Us?". NRICH. University of Cambridge. Archived from the original on 4 March 2016. Retrieved 28 February 2016.
  "von Neumann ... firmly emphasised to me, and to others I am sure, that the fundamental conception is owing to Turing—insofar as not anticipated by Babbage, Lovelace and others." Letter by Stanley Frankel to Brian Randell, 1972, quoted in Jack Copeland (2004) The Essential Turing, p. 22.
+ De Mol, Liesbeth (2021), "Turing Machines", in Zalta, Edward N. (ed.), The Stanford Encyclopedia of Philosophy (Winter 2021 ed.), Metaphysics Research Lab, Stanford University, archived from the original on 16 October 2022, retrieved 12 July 2023
+ Hodges 1983, p. 138
+ Turing, A.M. (1939). "Systems of Logic Based on Ordinals". Proceedings of the London Mathematical Society. s2-45: 161–228. doi:10.1112/plms/s2-45.1.161. hdl:21.11116/0000-0001-91CE-3.
+ Turing, Alan (1938). Systems of Logic Based on Ordinals (PhD thesis). Princeton University. doi:10.1112/plms/s2-45.1.161. hdl:21.11116/0000-0001-91CE-3. ProQuest 301792588.
+ Turing, A.M. (1938). "Systems of Logic Based on Ordinals" (PDF). Archived from the original (PDF) on 23 October 2012. Retrieved 4 February 2012.
+ John Von Neumann: The Scientific Genius Who Pioneered the Modern Computer, Game Theory, Nuclear Deterrence, and Much More, Norman MacRae, 1999, American Mathematical Society, Chapter 8
+ Hodges 1983, p. 152
+ Diamond, Cora, ed. (1976). Wittgenstein's Lectures on the Foundations of Mathematics. University of Chicago Press.
+ Hodges 1983, pp. 153–154
+ Briggs, Asa (21 November 2011). Britain's Greatest Codebreaker (TV broadcast). UK Channel 4.
+ Copeland, Jack (2001). "Colossus and the Dawning of the Computer Age". In Smith, Michael; Erskine, Ralph (eds.). Action This Day. Bantam. p. 352. ISBN 978-0-593-04910-5.
+ Copeland 2004a, p. 217
+ Clark, Liat (18 June 2012). "Turing's achievements: codebreaking, AI and the birth of computer science (Wired UK)". Wired. Archived from the original on 2 November 2013. Retrieved 31 October 2013.
+ Copeland, 2006 p. 378.
+ Collins, Jeremy (24 June 2020). "Alan Turing and the Hidden Heroes of Bletchley Park: A Conversation with Sir John Dermot Turing". New Orleans: The National WWII Museum. Retrieved 24 August 2021.
+ "How Alan Turing Cracked The Enigma Code". Imperial War Museums. Retrieved 12 July 2023.
+ Turing, Alan M.; Bayley, D. (2012). "Report on Speech Secrecy System DELILAH, a Technical Description Compiled by A. M. Turing and Lieutenant D. Bayley REME, 1945–1946". Cryptologia. 36 (4): 295–340. doi:10.1080/01611194.2012.713803. ISSN 0161-1194. S2CID 205488183.
+ Turing, Alan (c. 1941). "The Applications of Probability to Cryptography". The National Archives (United Kingdom): HW 25/37. Archived from the original on 7 April 2015. Retrieved 25 March 2015.
+ Turing, Alan (c. 1941). "Paper on Statistics of Repetitions". The National Archives (United Kingdom): HW 25/38. Archived from the original on 8 April 2015. Retrieved 25 March 2015.
+ Vallance, Chris (19 April 2012). "Alan Turing papers on code breaking released by GCHQ". BBC News. Archived from the original on 4 October 2012. Retrieved 20 April 2012.
+ Hodges 1983, p. 208
+ Turing, Alan M. (1940). The Prof's Book: Turing's Treatise on the Enigma. In late 1940 Alan Turing wrote a report describing the methods he and his colleagues at Bletchley Park had used to break into the German Enigma cipher systems. At Bletchley it was known as 'the Prof's Book.' A copy of this handbook was at last released from secrecy by the American National Security Agency in April 1996, under the title Turing's Treatise on the Enigma. Subsequently, a much better original copy was released by the (British) National Archives, box HW 25/3. This also revealed a title which had been lost in the American copy: Mathematical theory of ENIGMA machine. (Though, oddly, the report does not actually have any mathematical theory.)
+ Lewin 1978, p. 57
+ Hilton, Peter. "A Century of Mathematics in America, Part 1, Reminiscences of Bletchley Park" (PDF). Archived (PDF) from the original on 29 August 2019.
+ Hilton, Peter. "NOVA | Transcripts | Decoding Nazi Secrets | PBS". PBS. Archived from the original on 29 August 2019.
+ Brown, Anthony Cave (1975). Bodyguard of Lies: The Extraordinary True Story Behind D-Day. The Lyons Press. ISBN 978-1-59921-383-5.
+ Graham-Cumming, John (10 March 2010). "An Olympic honour for Alan Turing". The Guardian. London. Archived from the original on 1 December 2016. Retrieved 10 December 2016.
+ Butcher, Pat (14 September 2009). "In Praise of Great Men". Globe Runner. Archived from the original on 18 August 2013. Retrieved 23 June 2012.
+ Hodges, Andrew. "Alan Turing: a short biography". Alan Turing: The Enigma. Archived from the original on 14 September 2013. Retrieved 12 June 2014.
+ Graham-Cumming, John (10 March 2010). "Alan Turing: a short biography". The Guardian. Archived from the original on 8 November 2014. Retrieved 12 June 2014.
+ Butcher, Pat (December 1999). "Turing as a runner". The MacTutor History of Mathematics archive. Archived from the original on 13 November 2014. Retrieved 12 June 2014.
+ Kottke, Jason. "Turing was an excellent runner". kottke.org.
+ See for example Richelson, Jeffery T. (1997). A Century of Spies: Intelligence in the Twentieth Century. New York: Oxford University Press. p. 296. and Hartcup, Guy (2000). The Effect of Science on the Second World War. Basingstoke, Hampshire: Macmillan Press. pp. 96–99.
+ Hinsley, Harry (1996) [1993], The Influence of ULTRA in the Second World War Transcript of a lecture given on Tuesday 19 October 1993 at Cambridge University
+ "Alan Turing: Colleagues share their memories". BBC News. 23 June 2012. Archived from the original on 7 July 2018. Retrieved 21 June 2018.
+ "This month in history: Alan Turing and the Enigma code". thegazette.co.uk. Archived from the original on 26 June 2019. Retrieved 6 February 2019.
+ Welchman, Gordon (1997) [1982]. The Hut Six story: Breaking the Enigma codes. Cleobury Mortimer, England: M&M Baldwin. p. 81. ISBN 978-0-947712-34-1.
+ Jack Good in "The Men Who Cracked Enigma", 2003: with his caveat: "if my memory is correct".
+ "The Turing-Welchman Bombe". The National Museum of Computing. Retrieved 18 March 2021.
+ Oakley 2006, p. 40/03B
+ Hodges 1983, p. 218
+ Hodges 1983, p. 221
+ Copeland, The Essential Turing, pp. 336–337 Archived 18 February 2015 at the Wayback Machine.
+ Copeland, Jack; Proudfoot, Diane (May 2004). "Alan Turing, Codebreaker and Computer Pioneer". alanturing.net. Archived from the original on 9 July 2007. Retrieved 27 July 2007.
+ "Bletchley Park Unveils Statue Commemorating Alan Turing". Archived from the original on 30 June 2007. Retrieved 30 June 2007.
+ Mahon 1945, p. 14
+ Leavitt 2007, pp. 184–186
+ Gladwin, Lee (Fall 1997). "Alan Turing, Enigma, and the Breaking of German Machine Ciphers in World War II" (PDF). Prologue Magazine. Fall 1997: 202–217. Archived (PDF) from the original on 26 June 2019. Retrieved 13 April 2019 – via National Archives.
+ Good, Jack; Michie, Donald; Timms, Geoffrey (1945), General Report on Tunny: With Emphasis on Statistical Methods, Part 3 Organisation: 38 Wheel-breaking from Key, Page 293, UK Public Record Office HW 25/4 and HW 25/5, archived from the original on 21 April 2019, retrieved 13 April 2019
+ Hodges 1983, pp. 242–245
+ "Alan Turing's Report from Washington, 1942". www.turing.org.uk. Retrieved 12 July 2023.
+ "Alan Turing's Dayton Report, 1942". www.turing.org.uk. Retrieved 12 July 2023.
+ Turing, Alan M. (2001). "Visit to National Cash Register Corporation of Dayton, Ohio". Cryptologia. 25 (1): 1–10. doi:10.1080/0161-110191889734. S2CID 14207094.
+ Hodges 1983, pp. 245–253
+ "Marshall Legacy Series: Codebreaking – Events". marshallfoundation.org. Archived from the original on 7 April 2019. Retrieved 7 April 2019.
+ Alexander & circa 1945, p. 42
+ Copeland 2006, p. 380
+ Copeland 2006, p. 381
+ Copeland 2006, p. 72
+ Gannon 2007, p. 230
+ Hilton 2006, pp. 197–199
+ Copeland 2006, pp. 382, 383
+ Hodges 1983, pp. 245–250
+ Harper, John (Spring 2023). "Delilah Voice Secrecy System". Resurrection: The Journal of the Computer Conservation Society (101). The Computer Conservation Society: 8–9. Retrieved 28 June 2023.
+ Harper, John (Summer 2023). "Delilah Voice Secrecy System [part 2]: The Design, Development and Commissioning of Delilah in 1943 – 1945". Resurrection: The Journal of the Computer Conservation Society (102). The Computer Conservation Society: 16–19. Retrieved 28 June 2023.
+ Hodges 1983, p. 273
+ Hodges 1983, p. 346
+ Plaque #1619 on Open Plaques
+ Copeland 2006, p. 108
+ Randell, Brian (1980). "A History of Computing in the Twentieth Century: Colossus" (PDF). Archived (PDF) from the original on 27 January 2012. Retrieved 27 January 2012. citing Womersley, J.R. (13 February 1946). "'ACE' Machine Project". Executive Committee, National Physical Laboratory, Teddington, Middlesex.
+ Hodges, Andrew (2014). Alan Turing: The Enigma. Princeton University Press. p. 416. ISBN 978-0-691-16472-4.
+ See Copeland 2004b, pp. 410–432
+ "Turing at NPL". Archived from the original on 5 July 2015. Retrieved 3 July 2015.
+ Bruderer, Herbert. "Did Alan Turing interrogate Konrad Zuse in Göttingen in 1947?" (PDF). Archived (PDF) from the original on 21 May 2013. Retrieved 7 February 2013.
+ Swinton, Jonathan (2019). Alan Turing's Manchester. Manchester: Infang Publishing. ISBN 978-0-9931789-2-4. Archived from the original on 17 February 2019. Retrieved 18 March 2019.
+ Turing, A.M. (1948). "Rounding-Off Errors in Matrix Processes". The Quarterly Journal of Mechanics and Applied Mathematics. 1: 287–308. doi:10.1093/qjmam/1.1.287. hdl:10338.dmlcz/103139.
+ Harnad, Stevan (2008). "The Annotation Game: On Turing (1950) on Computing, Machinery and Intelligence". In Epstein, Robert; Peters, Grace (eds.). Parsing the Turing Test: Philosophical and Methodological Issues in the Quest for the Thinking Computer. Springer. ISBN 9781402067082. Archived from the original on 18 October 2017.
+ Clark, Liat. "Turing's achievements: codebreaking, AI and the birth of computer science". Wired. Archived from the original on 2 November 2013. Retrieved 11 November 2013.
+ "Alan Turing vs Alick Glennie (1952) "Turing Test"". Chessgames.com. Archived from the original on 19 February 2006.
+ Kasparov, Garry (15–16 April 2017). "Smart machines will free us all". The Wall Street Journal. p. c3.
+ O'Connor, J.J.; Robertson, E.F. "David Gawen Champernowne". MacTutor History of Mathematics archive, School of Mathematics and Statistics, University of St Andrews, Scotland. Archived from the original on 19 October 2017. Retrieved 22 May 2018.
+ Pinar Saygin, A.; Cicekli, I.; Akman, V. (2000). "Turing Test: 50 Years Later". Minds and Machines. 10 (4): 463–518. doi:10.1023/A:1011288000451. hdl:11693/24987. S2CID 990084.
+ Turing, Alan M. (14 August 1952). "The Chemical Basis of Morphogenesis". Philosophical Transactions of the Royal Society of London B. 237 (641): 37–72. Bibcode:1952RSPTB.237...37T. doi:10.1098/rstb.1952.0012. S2CID 120437796.
+ Gribbin, John (2004). Deep Simplicity. Random House. p. 126.
+ "Turing's Last, Lost work". Archived from the original on 23 August 2003. Retrieved 28 November 2011.
+ Murray, James D. (March 1988). "How the Leopard Gets Its Spots". Scientific American. 258 (3): 80–87. Bibcode:1988SciAm.258c..80M. doi:10.1038/scientificamerican0388-80. JSTOR 24989019.
+ Murray, James D. (2007). "Chapter 6". Mathematical Biology I. Springer Verlag.
+ Gribbin, John (2004). Deep Simplicity. Random House. p. 134.
+ Vogel, G. (2012). "Turing Pattern Fingered for Digit Formation". Science. 338 (6113): 1406. Bibcode:2012Sci...338.1406V. doi:10.1126/science.338.6113.1406. PMID 23239707.
+ Sheth, R.; Marcon, L.; Bastida, M.F.; Junco, M.; Quintana, L.; Dahn, R.; Kmita, M.; Sharpe, J.; Ros, M.A. (2012). "Hox Genes Regulate Digit Patterning by Controlling the Wavelength of a Turing-Type Mechanism". Science. 338 (6113): 1476–1480. Bibcode:2012Sci...338.1476S. doi:10.1126/science.1226804. PMC 4486416. PMID 23239739.
+ Andrew Hodges. "The Alan Turing Bibliography". turing.org.uk. p. morphogenesis. Archived from the original on 5 September 2015. Retrieved 27 July 2015.
+ James R. Riordon (26 March 2023). "Chia seedlings verify Alan Turing's ideas about patterns in nature". Science News.
+ Brendan D'Aquino (7 March 2023). "Abstract: F46.00003 : Studying Turing patterns in vegetation". American Physical Society.
+ Myrberg Burström, Nanouschka (2015). A tale of buried treasure, some good estimations, and golden unicorns: The numismatic connections of Alan Turing. Stockholm: Svenska Numismatiska Föreningen. pp. 226–230. ISBN 9789197942720.
+ Hodges, Andrew (2014). Alan Turing: the enigma. United States of America: Princeton University Press. p. 643. ISBN 9780691164724.
+ Leavitt 2007, pp. 176–178
+ "Alan Turing". Spartacus Educational. Retrieved 22 July 2023.
+ Hodges 1983, p. 458
+ Leavitt 2007, p. 268
+ "Historic courthouse near Manchester where famous trial took place unrecognisable after stunning renovation". Manchester Evenings News. 20 February 2023. Retrieved 5 April 2023.
+ Hodges, Andrew (2012). Alan Turing: The Enigma. Princeton University Press. p. 463. ISBN 978-0-691-15564-7.
+ Hodges, Andrew (2012). Alan Turing: The Enigma. Princeton University Press. p. 471. ISBN 978-0-691-15564-7.
+ Peralta, René (23 June 2022). "Alan Turing's Everlasting Contributions to Computing, AI and Cryptography". NIST.
+ Hodges, Andrew (2012). Alan Turing: The Enigma The Centenary Edition. Princeton University.
+ Turing, Alan (1952). "Letters of Note: Yours in distress, Alan". Archived from the original on 20 January 2013. Retrieved 16 December 2012.
+ Hodges, Andrew (2012). Alan Turing: The Enigma. Princeton University Press. p. xxviii. ISBN 978-0-691-15564-7.
+ Hodges 1983, p. 473
+ "The Panic that followed the defection of the Cambridge spies". The Conversation. 23 October 2015. Retrieved 12 August 2023.
+ Copeland 2006, p. 143
+ Olinick, Michael (2021). "Chapter 13". Simply Turing. United States: Simply Charly.
+ Vincent Dowd (6 June 2014). "What was Alan Turing really like?". BBC. Archived from the original on 17 January 2019. Retrieved 16 January 2019.
+ Anon (2021). "Turing's House: Copper Folly, 43 Adlington Road, Wilmslow, Cheshire, SK9 2BJ" (PDF). savills.com. Archived from the original (PDF) on 3 July 2021.
+ "Post Mortem Examination". Turing Digital Archive.
+ "Alan Turing. Biography, Facts, & Education". Encyclopædia Britannica. Archived from the original on 11 October 2017. Retrieved 11 October 2017.
+ Hodges 1983, p. 488
+ Turing, Dermot (2021). Reflections of Alan Turing. The History Press. ISBN 9781803990125.
+ Backhouse, Paul (2016). Alan Turing: Guildford's best kept secret. Guildford Town Guides.
+ Hodges 1983, p. 529
+ Hodges, Andrew (2012). Alan Turing: The Enigma. Random House. ISBN 978-1-4481-3781-7. Archived from the original on 17 January 2019. Retrieved 16 January 2019.
+ Leavitt 2007, p. 140 and Hodges 1983, pp. 149, 489
+ Pease, Roland (23 June 2012). "Alan Turing: Inquest's suicide verdict 'not supportable'". BBC News. Archived from the original on 23 June 2012. Retrieved 23 June 2012. We have ... been recreating the narrative of Turing's life, and we have recreated him as an unhappy young man who committed suicide. But the evidence is not there.
+ "TURING, Ethel Sara (1881–1976, mother of Alan Turing). Series of 11 autograph letters to Robin Gandy, Guilford, 28 July 1954 – 11 June 1971 (most before 1959), altogether 29 pages, 8vo (2 letters dated 17 May and 26 May 1955 incomplete, lacking continuation leaves, occasional light soiling)". christies.com. Archived from the original on 7 February 2019. Retrieved 6 February 2019.
+ Hodges 1983, pp. 488, 489
+ "Thousands call for Turing apology". BBC News. 31 August 2009. Archived from the original on 31 August 2009. Retrieved 31 August 2009.
+ Petition seeks apology for Enigma code-breaker Turing. CNN. 1 September 2009. Archived from the original on 5 October 2009. Retrieved 1 September 2009.
+ Davies, Caroline (11 September 2009). "PM's apology to codebreaker Alan Turing: we were inhumane". The Guardian. UK. Archived from the original on 4 February 2017. Retrieved 10 December 2016.
+ The petition was only open to UK citizens.
+ "PM apology after Turing petition". BBC News. 11 September 2009. Archived from the original on 31 May 2012. Retrieved 11 September 2009.
+ "Full text of the Prime Minister's apology". Archived from the original on 9 November 2012.
+ "Grant a pardon to Alan Turing". 6 December 2011. Archived from the original on 10 January 2012.
+ "Petition to pardon computer pioneer Alan Turing started". BBC News. 6 December 2011. Archived from the original on 19 June 2018. Retrieved 21 June 2018.
+ Wright, Oliver (23 December 2013). "Alan Turing gets his royal pardon for 'gross indecency' – 61 years after he poisoned himself". The Independent. London. Archived from the original on 24 December 2013. Retrieved 21 August 2017.
+ Wainwright, Martin (7 February 2012). "Government rejects a pardon for computer genius Alan Turing". The Guardian. Archived from the original on 4 February 2017. Retrieved 10 December 2016.
+ "hansard". Parliament of the United Kingdom. 2 February 2012. Archived from the original on 6 July 2017. Retrieved 29 August 2017.
+ Stevenson, Alex (24 December 2013). "Better late than never, Alan Turing is finally pardoned". politics.co.uk. Archived from the original on 16 August 2016. Retrieved 25 September 2016.
+ Fitzgerald, Todd (24 September 2016). "Alan Turing's court convictions go on display for the first time". manchestereveningnews.co.uk. Archived from the original on 25 September 2016. Retrieved 25 September 2016.
+ Britton, Paul (24 December 2013). "Alan Turing pardoned by The Queen for his 'unjust and discriminatory' conviction for homosexuality". Manchester Evening News. Archived from the original on 24 June 2018. Retrieved 24 June 2018.
+ "MP calls for pardon for computer pioneer Alan Turing". BBC News. 1 February 2012. Archived from the original on 2 July 2016. Retrieved 25 September 2016.
+ "My proudest day as a Liberal Democrat". Liberal Democrat Voice. Archived from the original on 24 June 2018. Retrieved 24 June 2018.
+ "Manchester computer pioneer Alan Turing announced as face of new £50 note". 15 July 2019. Archived from the original on 19 July 2019. Retrieved 19 July 2019.
+ "John Leech secures historic deal with Government on 'Alan Turing Law'". outnewsglobal.com. 20 October 2016.
+ Elliott, Larry; Halliday, Josh, eds. (15 July 2019). "Alan Turing to feature on new £50 banknote". The Guardian – via www.theguardian.com.
+ Bloom, Dan (23 October 2016). "Tory refuses to apologise for 'killing bad law' pardoning thousands of gay men". mirror.
+ "Alan Turing's 'fearless approach to problems and intellectual curiosity' praised". Dunfermline Press. 15 July 2019.
+ "The Alan Turing Law finally pardons thousands of unfairly convicted gay and bisexual men". University of Manchester. 31 January 2017.
+ "Bank of England honours Alan Turing on £50 note". QNews. 15 July 2019.
+ "Bill". Parliament of the United Kingdom. 26 July 2012. Archived from the original on 2 November 2013. Retrieved 31 October 2013.
+ Pearse, Damian (13 December 2012). "Alan Turing should be pardoned, argue Stephen Hawking and top scientists". The Guardian. Archived from the original on 4 February 2017. Retrieved 15 December 2012.
+ Watt, Nicholas (19 July 2013). "Enigma codebreaker Alan Turing to be given posthumous pardon". The Guardian. London. Archived from the original on 4 January 2017. Retrieved 10 December 2016.
+ Worth, Dan (30 October 2013). "Alan Turing pardon sails through House of Lords". V3. Archived from the original on 24 December 2013. Retrieved 24 December 2013.
+ "Alan Turing (Statutory Pardon) Bill". Archived from the original on 5 July 2013. Retrieved 20 July 2013.
+ Roberts, Scott (2 December 2013). "Lib Dem MP John Leech disappointed at delay to Alan Turing pardon bill". Pink News. Archived from the original on 25 December 2013. Retrieved 24 December 2013.
+ Roberts, Scott (2 December 2013). "Lib Dem MP John Leech disappointed at delay to Alan Turing pardon bill". PinkNews. Archived from the original on 12 June 2018. Retrieved 20 June 2018.
+ "Alan Turing (Statutory Pardon) Bill". Archived from the original on 2 November 2013. Retrieved 24 December 2013.
+ Swinford, Steven (23 December 2013). "Alan Turing granted Royal pardon by the Queen". The Daily Telegraph. Archived from the original on 2 May 2018. Retrieved 5 April 2018.
+ "Royal pardon for codebreaker Alan Turing". BBC News. 24 December 2013. Archived from the original on 24 December 2013. Retrieved 24 December 2013.
+ "With Queen's Decree, Alan Turing Is Now Officially Pardoned". Advocate.com. 22 August 2014. Archived from the original on 1 November 2014. Retrieved 1 November 2014.
+ "Pardoned: Alan Turing, Computing patriarch". Time Magazine. Vol. 183, no. 1. 13 January 2014. p. 14.
+ Davies, Caroline (24 December 2013). "Codebreaker Turing is given posthumous royal pardon". The Guardian. London. pp. 1, 6.
+ "Government 'committed' to Alan Turing gay pardon law". BBC News. 22 September 2016. Archived from the original on 22 September 2016. Retrieved 22 September 2016.
+ Cowburn, Ashley (21 September 2016). "Theresa May committed to introducing the 'Alan Turing Law'". The Independent. Archived from the original on 22 September 2016. Retrieved 22 September 2016.
+ "Policing and Crime Act 2017". Government of the United Kingdom. Archived from the original on 5 March 2019. Retrieved 6 February 2019.
+ "Veterans Update". Hansard – UK Parliament. Retrieved 24 July 2023.
+ Sheridan, Danielle (19 July 2023). "Alan Turing statue should be put on Trafalgar Square's fourth plinth, says Ben Wallace". The Telegraph. Retrieved 24 July 2023.
+ Khomami, Nadia; Arts, Nadia Khomami (24 July 2023). "LGBTQ+ military charity backs proposal for Alan Turing statue on fourth plinth". The Guardian. Retrieved 24 July 2023.
+Sources
+Agar, Jon (2001). Turing and the Universal Machine. Duxford: Icon. ISBN 978-1-84046-250-0.
+Agar, Jon (2003). The government machine: a revolutionary history of the computer. Cambridge, Massachusetts: MIT Press. ISBN 978-0-262-01202-7.
+Alexander, C. Hugh O'D. "Cryptographic History of Work on the German Naval Enigma". The National Archives, Kew, Reference HW 25/1.
+Beavers, Anthony (2013). "Alan Turing: Mathematical Mechanist". In Cooper, S. Barry; van Leeuwen, Jan (eds.). Alan Turing: His Work and Impact. Waltham: Elsevier. pp. 481–485. ISBN 978-0-12-386980-7.
+Beniger, James (1986). The control revolution: technological and economic origins of the information society. Cambridge, Massachusetts: Harvard University Press. ISBN 978-0-674-16986-9.
+Babbage, Charles (1864). Campbell-Kelly, Martin (ed.). Passages from the life of a philosopher. Rough Draft Printing (published 2008). ISBN 978-1-60386-092-5.
+Bodanis, David (2005). Electric Universe: How Electricity Switched on the Modern World. New York: Three Rivers Press. ISBN 978-0-307-33598-2. OCLC 61684223.
+Bruderer, Herbert (2012). "Die Maschinen von Charles Babbage, Alan Turing und John von Neumann". Konrad Zuse und die Schweiz. Wer hat den Computer erfunden? (in German). München: Oldenbourg Wissenschaftsverlag. doi:10.1524/9783486716658. ISBN 978-3-486-71366-4.
+Campbell-Kelly, Martin; Aspray, William (1996). Computer: A History of the Information Machine. New York: Basic Books. ISBN 978-0-465-02989-1.
+Ceruzzi, Paul E. (1998). A History of Modern Computing. Cambridge, Massachusetts, and London: MIT Press. ISBN 978-0-262-53169-6.
+Chandler, Alfred (1977). The Visible Hand: The Managerial Revolution in American Business. Cambridge, Massachusetts: Belknap Press. ISBN 978-0-674-94052-9.
+Church, Alonzo (1936). "An Unsolvable Problem of Elementary Number Theory". American Journal of Mathematics. 58 (2): 345–363. doi:10.2307/2371045. ISSN 0002-9327. JSTOR 2371045.
+Cooper, S. Barry; van Leeuwen, Jan (2013). Alan Turing: His Work and Impact. New York: Elsevier. ISBN 978-0-12-386980-7.
+Copeland, B. Jack (2004a). "Colossus: Its Origins and Originators". IEEE Annals of the History of Computing. 26 (4): 38–45. doi:10.1109/MAHC.2004.26. S2CID 20209254.
+Copeland, B. Jack, ed. (2004b). The Essential Turing. Oxford: Oxford University Press. ISBN 978-0-19-825079-1. OCLC 156728127.
+Copeland, B. Jack, ed. (2005). Alan Turing's Automatic Computing Engine. Oxford: Oxford University Press. ISBN 978-0-19-856593-2. OCLC 224640979.
+Copeland, B. Jack (2006). Colossus: The secrets of Bletchley Park's code-breaking computers. Oxford University Press. ISBN 978-0-19-284055-4.
+Hilton, Peter (2006). "Living with Fish: Breaking Tunny in the Newmanry and Testery". Colussus. in Copeland 2006, pp. 189–203
+Edwards, Paul N (1996). The closed world: computers and the politics of discourse in Cold War America. Cambridge, Massachusetts: MIT Press. ISBN 978-0-262-55028-4.
+Gannon, Paul (2007) [2006]. Colossus: Bletchley Park's Greatest Secret. London: Atlantic Books. ISBN 978-1-84354-331-2.
+Hodges, Andrew (1983). Alan Turing : the enigma. London: Burnett Books. ISBN 978-0-09-152130-1.
+Hochhuth, Rolf (1988). Alan Turing: en berättelse. Symposion. ISBN 978-91-7868-109-9.
+Leavitt, David (2007). The man who knew too much: Alan Turing and the invention of the computer. Phoenix. ISBN 978-0-7538-2200-5.
+Levin, Janna (2006). A Madman Dreams of Turing Machines. New York: Knopf. ISBN 978-1-4000-3240-2.
+Lewin, Ronald (1978). Ultra Goes to War: The Secret Story. Classic Military History (Classic Penguin ed.). London: Hutchinson & Co (published 2001). ISBN 978-1-56649-231-7.
+Lubar, Steven (1993). Infoculture. Boston, Massachusetts and New York: Houghton Mifflin. ISBN 978-0-395-57042-5.
+Mahon, A.P. (1945). "The History of Hut Eight 1939–1945". UK National Archives Reference HW 25/2. Retrieved 10 December 2009.
+Oakley, Brian, ed. (2006). The Bletchley Park War Diaries: July 1939 – August 1945 (2.6 ed.). Wynne Press.
+O'Connell, H; Fitzgerald, M (2003). "Did Alan Turing have Asperger's syndrome?". Irish Journal of Psychological Medicine. 20 (1). Irish Institute of Psychological Medicine: 28–31. doi:10.1017/s0790966700007503. ISSN 0790-9667. PMID 30440230. S2CID 53563123.
+O'Connor, John J.; Robertson, Edmund F., "Alan Mathison Turing", MacTutor History of Mathematics Archive, University of St Andrews
+Petzold, Charles (2008). The Annotated Turing: A Guided Tour through Alan Turing's Historic Paper on Computability and the Turing Machine. Indianapolis: Wiley Publishing. ISBN 978-0-470-22905-7.
+Smith, Roger (1997). Fontana History of the Human Sciences. London: Fontana.
+Sipser, Michael (2006). Introduction to the Theory of Computation. PWS Publishing. ISBN 978-0-534-95097-2.
+Weizenbaum, Joseph (1976). Computer Power and Human Reason. London: W.H. Freeman. ISBN 0-7167-0463-3.
+Turing, A.M. (1937) [Delivered to the Society November 1936]. "On Computable Numbers, with an Application to the Entscheidungsproblem" (PDF). Proceedings of the London Mathematical Society. 2. Vol. 42. pp. 230–65. doi:10.1112/plms/s2-42.1.230. and Turing, A.M. (1938). "On Computable Numbers, with an Application to the Entscheidungsproblem: A correction". Proceedings of the London Mathematical Society. 2. Vol. 43 (published 1937). pp. 544–46. doi:10.1112/plms/s2-43.6.544.
+Turing, Sara Stoney (1959). Alan M Turing. W Heffer. Turing's mother, who survived him by many years, wrote this 157-page biography of her son, glorifying his life. It was published in 1959, and so could not cover his war work. Scarcely 300 copies were sold (Sara Turing to Lyn Newman, 1967, Library of St John's College, Cambridge). The six-page foreword by Lyn Irvine includes reminiscences and is more frequently quoted. It was re-published by Cambridge University Press in 2012, to honour the centenary of his birth, and included a new foreword by Martin Davis, as well as a never-before-published memoir by Turing's older brother John F. Turing.
+Whitemore, Hugh; Hodges, Andrew (1988). Breaking the code. S. French. This 1986 Hugh Whitemore play tells the story of Turing's life and death. In the original West End and Broadway runs, Derek Jacobi played Turing and he recreated the role in a 1997 television film based on the play made jointly by the BBC and WGBH, Boston. The play is published by Amber Lane Press, Oxford, ASIN: B000B7TM0Q
+Williams, Michael R. (1985). A History of Computing Technology. Englewood Cliffs, New Jersey: Prentice-Hall. ISBN 0-8186-7739-2.
+Yates, David M. (1997). Turing's Legacy: A history of computing at the National Physical Laboratory 1945–1995. London: London Science Museum. ISBN 978-0-901805-94-2. OCLC 123794619.
+Further reading
+Articles
+Turing, Alan (1950). "Computing Machinery and Intelligence" (PDF). Mind. 49 (236): 433–460. doi:10.1093/mind/LIX.236.433. Archived (PDF) from the original on 9 October 2022.
+Copeland, B. Jack (ed.). "The Mind and the Computing Machine: Alan Turing and others". The Rutherford Journal.
+Copeland, B. Jack (ed.). "Alan Turing: Father of the Modern Computer". The Rutherford Journal.
+Hodges, Andrew (2007). "Alan Turing". In Edward N. Zalta (ed.). Stanford Encyclopedia of Philosophy (Winter 2009 ed.). Stanford University. Retrieved 10 January 2011.
+Hodges, Andrew (2004). "Turing, Alan Mathison". Oxford Dictionary of National Biography (online ed.). Oxford University Press. doi:10.1093/ref:odnb/36578. (Subscription or UK public library membership required.)
+Gray, Paul (29 March 1999). "Computer Scientist: Alan Turing". Time. Archived from the original on 16 October 2007.
+Books
+Bernhardt, Chris (2017), Turing's Vision: The Birth of Computer Science, MIT Press, ISBN 978-0-262-53351-5
+Copeland, B. Jack; Bowen, Jonathan P.; Wilson, Robin; Sprevak, Mark (2017). The Turing Guide. Oxford University Press. ISBN 978-0-19-874783-3.
+Dyson, George (2012). Turing's Cathedral: The Origins of the Digital Universe. Vintage. ISBN 978-1-4000-7599-7.
+Gleick, James (2011). The Information: A History, a Theory, a Flood. New York: Pantheon. ISBN 978-0-375-42372-7.
+Hodges, Andrew (2014). Alan Turing: The Enigma. Princeton University Press. ISBN 978-0-691-16472-4. (originally published in 1983); basis of the film The Imitation Game
+Turing, Sara (2012). Alan M. Turing. Cambridge University Press. ISBN 978-1-107-02058-0. (originally published in 1959 by W. Heffer & Sons, Ltd)
+External links
+Alan Turing
+at Wikipedia's sister projects
+Media from Commons
+News from Wikinews
+Quotations from Wikiquote
+Texts from Wikisource
+Oral history interview with Nicholas C. Metropolis, Charles Babbage Institute, University of Minnesota. Metropolis was the first director of computing services at Los Alamos National Laboratory; topics include the relationship between Turing and John von Neumann
+How Alan Turing Cracked The Enigma Code Imperial War Museums
+Alan Turing Year Archived 17 February 2019 at the Wayback Machine
+CiE 2012: Turing Centenary Conference
+Science in the MakingArchived 4 April 2023 at the Wayback Machine Alan Turing's papers in the Royal Society's archives
+Alan Turing site maintained by Andrew Hodges including a short biography
+AlanTuring.net – Turing Archive for the History of Computing by Jack Copeland
+The Turing Archive[permanent dead link] – contains scans of some unpublished documents and material from the King's College, Cambridge archive
+Alan Turing Papers – University of Manchester Library, Manchester
+Jones, G. James (11 December 2001). "Alan Turing – Towards a Digital Mind: Part 1". System Toolbox. The Binary Freedom Project. Archived from the original on 3 August 2007.
+Sherborne School Archives – holds papers relating to Turing's time at Sherborne School
+Alan Turing plaques recorded on openplaques.org
+Alan Turing archive on New Scientist
+vte
+Alan Turing
+vte
+Fellows of the Royal Society elected in 1951
+vte
+Timelines of computing
+vte
+Time 100: The Most Important People of the 20th Century
+Authority control databases Edit this at Wikidata
+Portals:
+ Biography
+flag England
+ LGBT
+icon Greater Manchester
+icon Mathematics
+icon Computer programming
+Categories: Alan Turing1912 births1954 suicides1954 deaths20th-century atheists20th-century English LGBT people20th-century English mathematicians20th-century English philosophersAcademics of the University of ManchesterAcademics of the University of Manchester Institute of Science and TechnologyAlumni of King's College, CambridgeArtificial intelligence researchersBayesian statisticiansBletchley Park peopleBritish anti-fascistsBritish cryptographersBritish people of World War IIComputability theoristsComputer designersEnglish atheistsEnglish computer scientistsEnglish inventorsEnglish logiciansEnglish male long-distance runnersEnglish people of Irish descentEnglish people of Scottish descentFellows of King's College, CambridgeFellows of the Royal SocietyFormer ProtestantsForeign Office personnel of World War IIGay academicsGay scientistsGay sportsmenGCHQ peopleHistory of computing in the United KingdomLGBT-related suicidesLGBT mathematiciansLGBT philosophersBritish LGBT scientistsEnglish LGBT sportspeopleLGBT track and field athletesOfficers of the Order of the British EmpirePeople educated at Sherborne SchoolPeople from Maida ValePeople from WilmslowPeople convicted for homosexuality in the United KingdomPeople who have received posthumous pardonsPrinceton University alumniRecipients of British royal pardonsTheoretical biologistsTheoretical computer scientistsSuicides by cyanide poisoningSuicides in EnglandCastrated peopleScientists of the National Physical Laboratory (United Kingdom)Computer chess peopleEnigma machine
+This page was last edited on 23 March 2024, at 11:35 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 4.0; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaCode of ConductDevelopersStatisticsCookie statementMobile viewWikimedia FoundationPowered by MediaWiki
+Toggle limited content width
