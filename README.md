@@ -21,23 +21,6 @@ You can see Ctrl-Phi in action on our [website](https://ctrl-phi.app).
 
 
 ## What's next
-Even in its current state, Ctrl-Phi is incredibly practical for anyone who wants to get information fast. As a better version of one of the most popular keybinds on the internet, Ctrl-Phi can be widely adopted by almost anyone using the web.
+Ctrl-Phi is already practical to almost anyone on the web, but there's always room to improve.
 
-However, there is always room to improve. The first advancement would be the ability to scan and sift through PDFs, as many textbooks and educational resources are in the form of PDFs. Second would be the ability to scan and find images on a webpage. And finally, querying videos and jumping to a desired timestamp would be arguably the most distinct and time-saving use case.
-
-
-## Setup
-#### Installation
-1. Run `poetry install`
-2. Run `python server`
-3. Hosts on `localhost:8000/api`
-
-### Hello World Example
-
-Example call (based on: https://en.wikipedia.org/wiki/Alan_Turing):
-```json
-{
-  "query": "why did he die", 
-  "content": "[insert alan turing article]"
-}
-```
+The first advancement would be the ability to scan and sift through PDFs, as many textbooks and educational resources are in the form of PDFs. Second would be the ability to scan and find images on a webpage. And finally, querying videos and jumping to a desired timestamp would be arguably the most distinct and time-saving use case.
