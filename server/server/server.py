@@ -3,8 +3,18 @@ from typing import List, Optional
 from fastapi import FastAPI, HTTPException
 
 from pydantic import BaseModel
+from starlette.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+
+# Configure CORS middleware with broad settings
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allow requests from all origins
+    allow_credentials=True,  # Allow credentials (cookies, authorization headers)
+    allow_methods=["*"],  # Allow all HTTP methods
+    allow_headers=["*"],  # Allow all headers
+)
 
 
 class QueryModel(BaseModel):
