@@ -73,6 +73,10 @@ body {
     border-radius: 5px;
 }
 
+.result-item:hover {
+    background-color: #dedcdc;
+}
+
 .highlighted {
     background-color: yellow;
 }
