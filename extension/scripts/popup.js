@@ -61,15 +61,20 @@ async function performSearch(event) {
         const newDiv = document.createElement("div");
         newDiv.className = "result-item"; // Assign a class name for styling
         newDiv.textContent = text;
+
+        newDiv.addEventListener('click', function() {
+            highlightText(text, true); // the second parameter shows we want to scroll to the highlighted text
+        });
+
         outputsDiv.appendChild(newDiv);
         highlightText(text)
     }
 }
 
-function highlightText(text) {
+function highlightText(text, scroll) {
     //helper function runs on the main dom
-    function highlightTextHelper(helperText) {
-        function highlightTextHelperHelper(helperHelperText) { //naming functions is hard
+    function highlightTextHelper(helperText, scroll) {
+        function highlightTextHelperHelper(helperHelperText, scroll) { //naming functions is hard
             const searchRegExp = new RegExp(helperHelperText, 'g');
             const bodyText = document.body.innerHTML;
 
@@ -77,7 +82,16 @@ function highlightText(text) {
                 return false;
             }
 
-            document.body.innerHTML = bodyText.replace(searchRegExp, `<span style="background-color: yellow;">${helperHelperText}</span>`);
+            document.body.innerHTML = bodyText.replace(searchRegExp, `<span class="highlighted">${helperHelperText}</span>`);
+
+            // actual scroll functionality
+            if (scroll) {
+                const highlightedElements = document.querySelectorAll('.highlighted');
+                if (highlightedElements.length > 0) {
+                    highlightedElements[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            }
+
             return true;
         }
         while (true) {
@@ -88,7 +102,7 @@ function highlightText(text) {
                 console.log("space break")
                 break;
             }
-            const attempt = highlightTextHelperHelper(helperText)
+            const attempt = highlightTextHelperHelper(helperText, scroll)
             console.log("attempt", attempt)
             if(attempt) {
                 console.log("attempt break")
@@ -103,12 +117,12 @@ function highlightText(text) {
         chrome.scripting.executeScript({
             target: {tabId: tabs[0].id},
             function: highlightTextHelper,
-            args: [text] // Replace 'textToHighlight' with the actual text you want to highlight
+            args: [text, scroll] // Replace 'textToHighlight' with the actual text you want to highlight
         });
     });
 }
 
-async function makeRequest(query, content){
+async function makeRequest(query, content) {
     const requestBody = {
         query: query,
         content: content // Replace this with the actual article content
