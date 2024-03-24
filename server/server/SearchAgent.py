@@ -18,14 +18,9 @@ class SearchAgent():
     def search(self, reference_text, query):
         # Chunk content to avoid context limit
         chunks = self.chunk_content(reference_text)
-        if len(chunks) > 1:
-            num_res = max(
-                min(len(chunks)//self.num_results, self.num_results), 2)
-        else:
-            num_res = self.num_results
         # Add system prompt to llm to ensure response format
         self.llm.add_sys_prompt(
-            self.prompt_factory.generate_initial_prompt(num_res))
+            self.prompt_factory.generate_initial_prompt(self.num_results))
         result = ResponseModel(query="", results=[])
         for chunk in chunks:
             # Make prompt based on chunks
@@ -67,7 +62,10 @@ class SearchAgent():
     def validate_response(self, matches, reference_text):
         valid_matches = []
         for match in matches:
-            if match.matched_text in reference_text:
+            inner_norm = match.matched_text.replace(
+                "\n", " ").replace("'", "\"")
+            outer_norm = reference_text.replace("\n", " ").replace("'", "\"")
+            if inner_norm in outer_norm:
                 valid_matches.append(match)
 
         if len(valid_matches) < 1:
