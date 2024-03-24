@@ -16,5 +16,15 @@
       "32": "images/phi32.png",
       "48": "images/phi48.png",
       "128": "images/phi128.png"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Period",
+        "mac": "Command+Shift+Period"
+      },
+      "description": "Activate the extension"
+    }
   }
+
 }
