@@ -10,7 +10,7 @@ However, Ctrl + F necessitates <i>specific</i> text input in order to search. Wh
 
 ## How to use Ctrl-Phi
 
-Ctrl-Phi is a chrome extension that anyone can download at [ctrl-phi.app](https://ctrl-phi.app).
+Ctrl-Phi is a Chrome extension that anyone can download at [ctrl-phi.app](https://ctrl-phi.app).
 
 No matter what webpage you're on, Ctrl-Phi is one click away. Simply type in your prompt, select the block of text you want to jump to, and Ctrl+Phi will scroll the page to your desired location.
 
@@ -18,7 +18,9 @@ You can see Ctrl-Phi in action on our [website](https://ctrl-phi.app).
 
 ## How we built Ctrl-Phi
 
-[someone better at using technical terms please write this - there's a lot of stuff]
+The frontend was built with Nextjs and TailwindCSS, using select MaterialUI components. The Playground tab allows users to experiment with Ctrl-Phi using sets of example text, or any text of their own. It uses dynamic highlighting and scrolling within the text boxes and displays components using the FastAPI response.
+
+In order to analyze text, we engineered a custom Search Agent. This agent uses an LLM alongside agentic AI logic and prompting patterns (based on the principles of "ReAct: Synergizing Reasoning and Acting in Language Models") in order to find direct matching text based on a user's query. The Search Agent can be used with any LLM (due to custom LLM and LLMConfig abstractions) and features token-based chunking to overcome context-window limitations. The SearchAgent also has robust error-handling, utilizes response validation, and relies on re-prompting strategies to reduce hallucination.
 
 ## What's next
 Ctrl-Phi is already practical to almost anyone on the web, but there's always room to improve.
