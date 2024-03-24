@@ -11,7 +11,7 @@ const Navbar = () => {
         <nav className=" border-gray-200 bg-gray-900 font-mono">
             <div className="max-w-screen-xl flex flex-col items-center justify-center mx-auto p-2">
                 <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse px-5">
-                    <h1 className="text-4xl">ctrl-φ</h1>
+                    <h1 className="text-4xl text-white">ctrl-φ</h1>
                 </a>
                 <div className="w-full flex items-center justify-center py-2" id="navbar-default">
                     <ul className="font-medium flex flex-row justify-center">

@@ -16,7 +16,7 @@ export default function About() {
                 <div className="flex md:flex-row flex-col w-11/12 pt-5 justify-center">
                     <div className="block max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 animate-slidein300 opacity-0">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Ctrl + Shift + .</h5>
-                        <p className="font-normal text-gray-700">Tell Ctrl-φ what you're looking for on any webpage</p>
+                        <p className="font-normal text-gray-700">Tell Ctrl-φ what you are looking for on any webpage</p>
                         <img src="/whydieex.png"></img>
                     </div>
                     <div className="h-max px-5 md:pt-48 py-10 justify-center items-center animate-slidein300 opacity-0">
@@ -24,7 +24,7 @@ export default function About() {
                     </div>
                     <div className="block max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 animate-slidein500 opacity-0 ">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Processed by AI</h5>
-                        <p className="font-normal text-gray-700">Our custom AI agent will search the web page for the content you're looking for</p>
+                        <p className="font-normal text-gray-700">Our custom AI agent will search the web page for the content you are looking for</p>
                         <img src="/robot1.jpg"></img>
                     </div>
                     <div className="h-max px-5 md:pt-48 py-10 justify-center items-center animate-slidein500 opacity-0">
