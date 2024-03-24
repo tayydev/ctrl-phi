@@ -47,5 +47,5 @@ document.addEventListener("DOMContentLoaded", function() {
     var searchButton = document.getElementById('search-button');
 
     // Attach the click event listener to the search button
-    searchButton.addEventListener('click', performSearch);
+    searchButton.addEventListener('submit', performSearch);
 });
