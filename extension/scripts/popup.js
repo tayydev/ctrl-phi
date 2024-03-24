@@ -1,14 +1,6 @@
-// Summary: popup HTML loads, getCurrentTab called (getting tab), scrapeHtml called (scraping text), set message to text
-// // run when the popup's HTML has completely loaded
-// document.addEventListener('DOMContentLoaded', function() {
-//     getCurrentTabHtml().then(html => {
-//         if (false) {
-//             document.querySelector('#message').textContent = html;
-//         }
-//     }).catch(error => {
-//         document.querySelector('#message').textContent = 'Error: ' + error.message;
-//     });
-// });
+window.onload = function() {
+    document.getElementById('search-input').focus();
+};
 
 //scraping
 async function getCurrentTabHtml() {
