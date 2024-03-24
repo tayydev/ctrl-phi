@@ -122,8 +122,8 @@ export default function Playground() {
                             rows={1}
                         />
                     </form>  
-                    {matches.map((value) => (
-                    <div className="py-3">
+                    {matches.map((value, key) => (
+                    <div className="py-3" key={key}>
                         <button onClick={(e) => highlightAndScrollToText(value.matched_text)} className="block max-w-sm p-2 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
                             <h5 className="mb-1 text-md font-semibold tracking-tight text-gray-900">{`"${value.matched_text}"`}</h5>
                             <h5 className="mb-1 text-md tracking-tight text-gray-700">{`${value.explanation}`}</h5>
