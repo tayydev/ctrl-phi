@@ -43,8 +43,13 @@ async function performSearch(event) {
     const searchText = document.getElementById("search-input").value;
     const websiteContent = await getCurrentTabHtml()
 
+
+    //create a spinner or make it visible
+
     const results = await makeRequest(searchText, websiteContent)
     console.log("results", results)
+
+    //hide spinner
 
 
     const outputsDiv = document.getElementById("outputs");
