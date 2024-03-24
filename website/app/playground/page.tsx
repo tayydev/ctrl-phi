@@ -80,7 +80,7 @@ export default function Playground() {
         };
         try {
             setLoading(true)
-            const response = await fetch('https://api.ctrl-phi.app/api', {
+            const response = await fetch('https://api.ctrl-phi.app/realapi', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
