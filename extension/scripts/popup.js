@@ -3,7 +3,9 @@
 // run when the popup's HTML has completely loaded
 document.addEventListener('DOMContentLoaded', function() {
     getCurrentTabHtml().then(html => {
-        document.querySelector('#message').textContent = html;
+        if (false) {
+            document.querySelector('#message').textContent = html;
+        }
     }).catch(error => {
         document.querySelector('#message').textContent = 'Error: ' + error.message;
     });

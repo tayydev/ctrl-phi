@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "HTML Scraper",
-  "description": "Base Level Extension",
+  "name": "Ctrl-Phi",
+  "description": "Search and receive",
   "version": "1.0",
   "permissions": [
     "tabs",
