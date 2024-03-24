@@ -42,6 +42,9 @@ document.addEventListener("DOMContentLoaded", function() {
         .addEventListener('submit', performSearch);
 });
 
+let ids = []
+let iter = 0
+
 async function performSearch(event) {
     event.preventDefault()
 
@@ -55,26 +58,90 @@ async function performSearch(event) {
     const outputsDiv = document.getElementById("outputs");
     outputsDiv.innerHTML = ''; // Clear existing content
 
+
+    //cleanup from older searches
+    ids.forEach(item => {
+        wipeDiv(item)
+    })
+    ids = []
     for (const row of results.results) {
         const text = row.matched_text
+
+        const customDivId = `customInject${iter++}`
+        ids.push(customDivId)
+        console.log("Generated id", customDivId)
+
         console.log(row)
-        const newDiv = document.createElement("div");
+
+
+        //Make the divs in popup
+        const newDiv = document.createElement("button");
         newDiv.className = "result-item"; // Assign a class name for styling
         newDiv.textContent = text;
 
         newDiv.addEventListener('click', function() {
-            highlightText(text, true); // the second parameter shows we want to scroll to the highlighted text
-        });
+            ids.forEach(item => {
+                changeDivBackgroundColor(item, "yellow")
+            })
+            scrollToDiv(customDivId)
+            changeDivBackgroundColor(customDivId, "orange")
+        })
 
         outputsDiv.appendChild(newDiv);
-        highlightText(text)
+        highlightText(text, customDivId)
+        changeDivBackgroundColor(customDivId, "yellow")
     }
 }
 
-function highlightText(text, scroll) {
+function scrollToDiv(divID) {
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+        chrome.scripting.executeScript({
+            target: {tabId: tabs[0].id},
+            function: function(divID) {
+                const element = document.getElementById(divID);
+                if (element) {
+                    element.scrollIntoView({behavior: "smooth", block: "center"});
+                }
+            },
+            args: [divID]
+        });
+    });
+}
+
+function changeDivBackgroundColor(divID, color) {
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+        chrome.scripting.executeScript({
+            target: {tabId: tabs[0].id},
+            function: function(divID, color) {
+                document.getElementById(divID).style.backgroundColor = color;
+            },
+            args: [divID, color]
+        });
+    });
+}
+
+function wipeDiv(divID) {
+    function wipeDivHelper(divId) {
+        const highlightedElements = document.querySelectorAll(`span#${divId}`);
+        highlightedElements.forEach(element => {
+            const textNode = document.createTextNode(element.textContent);
+            element.parentNode.replaceChild(textNode, element);
+        });
+    }
+
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+        chrome.scripting.executeScript({
+            target: {tabId: tabs[0].id},
+            function: wipeDivHelper,
+            args: [divID]
+        });
+    });
+}
+
+function highlightText(text, divId) {
     //helper function runs on the main dom
-    function highlightTextHelper(helperText, scroll) {
-        function highlightTextHelperHelper(helperHelperText, scroll) { //naming functions is hard
+    function highlightTextHelper(helperText, divId) {
+        function highlightTextHelperHelper(helperHelperText, divId) { //naming functions is hard
             const searchRegExp = new RegExp(helperHelperText, 'g');
             const bodyText = document.body.innerHTML;
 
@@ -82,15 +149,10 @@ function highlightText(text, scroll) {
                 return false;
             }
 
-            document.body.innerHTML = bodyText.replace(searchRegExp, `<span class="highlighted">${helperHelperText}</span>`);
-
-            // actual scroll functionality
-            if (scroll) {
-                const highlightedElements = document.querySelectorAll('.highlighted');
-                if (highlightedElements.length > 0) {
-                    highlightedElements[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
-                }
-            }
+            document.body.innerHTML = bodyText.replace(
+                searchRegExp,
+                `<span id=${divId}>${helperHelperText}</span>`
+            );
 
             return true;
         }
@@ -102,7 +164,7 @@ function highlightText(text, scroll) {
                 console.log("space break")
                 break;
             }
-            const attempt = highlightTextHelperHelper(helperText, scroll)
+            const attempt = highlightTextHelperHelper(helperText, divId)
             console.log("attempt", attempt)
             if(attempt) {
                 console.log("attempt break")
@@ -117,7 +179,7 @@ function highlightText(text, scroll) {
         chrome.scripting.executeScript({
             target: {tabId: tabs[0].id},
             function: highlightTextHelper,
-            args: [text, scroll] // Replace 'textToHighlight' with the actual text you want to highlight
+            args: [text, divId]
         });
     });
 }
