@@ -44,15 +44,17 @@ def get_example_response(query: str) -> ResponseModel:
         )
 
 
-@app.post("/api")
+@app.post("/realapi")
 async def read_json(model: QueryModel):
     agent = SearchAgent(3)
     res = agent.search(
         reference_text=model.content, query=model.query)
     return res
 
-    # if model.query != "why did he die":
-    #     raise HTTPException(
-    #         status_code=500, detail="Endpoint not implemented. Try with query='why did he die'")
 
-    # return get_example_response(query=model.query)
+@app.post("/api")
+async def get_json(model: QueryModel):
+    if model.query != "why did he die":
+        raise HTTPException(
+            status_code=500, detail="Endpoint not implemented. Try with query='why did he die'")
+    return get_example_response(query=model.query)
