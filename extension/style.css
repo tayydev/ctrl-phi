@@ -65,6 +65,27 @@ body {
     border: 0;
 }
 
+.result-item {
+    outline: none;
+    border: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #F6F6F6;
+    border-radius: 5px;
+}
+
+.explanation-item {
+    color: #545454;
+}
+
+.result-item:hover {
+    background-color: #dedcdc;
+}
+
+.highlighted {
+    background-color: yellow;
+}
+
 /* TODO: likely to change when the extension does what it should */
 #message {
     white-space: pre-wrap;
