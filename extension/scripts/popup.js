@@ -2,7 +2,30 @@ let port = chrome.runtime.connect({name: "popup"});
 
 window.onload = function() {
     document.getElementById('search-input').focus();
+    wipeAllExisting()
 };
+
+function wipeAllExisting() {
+    function wipeDivHelper() {
+        const items = document.querySelectorAll('.injected-highlighter');
+
+        items.forEach((item) => {
+            const highlightedElements = document.querySelectorAll(`span#${item.id}`);
+            highlightedElements.forEach(element => {
+                const textNode = document.createTextNode(element.textContent);
+                element.parentNode.replaceChild(textNode, element);
+            });
+        });
+    }
+
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+        chrome.scripting.executeScript({
+            target: {tabId: tabs[0].id},
+            function: wipeDivHelper,
+            args: []
+        });
+    });
+}
 
 //scraping
 async function getCurrentTabHtml() {
@@ -198,7 +221,7 @@ async function makeRequest(query, content) {
     };
     console.log("request body", requestBody)
     try {
-        const response = await fetch('https://api.ctrl-phi.app/api', {
+        const response = await fetch('https://api.ctrl-phi.app/realapi', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
