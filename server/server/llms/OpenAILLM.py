@@ -14,7 +14,9 @@ class OpenAILLM(LLM):
             model=self.config.model,
             messages=self.messages
         )
-        return completion.choices[0].message.content
+        response = completion.choices[0].message.content
+        self.delete_last_message()
+        return response
 
     def add_sys_prompt(self, sys_prompt):
         self.messages.extend([
