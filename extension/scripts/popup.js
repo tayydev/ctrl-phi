@@ -1,16 +1,17 @@
 // Summary: popup HTML loads, getCurrentTab called (getting tab), scrapeHtml called (scraping text), set message to text
 
-// run when the popup's HTML has completely loaded
-document.addEventListener('DOMContentLoaded', function() {
-    getCurrentTabHtml().then(html => {
-        if (false) {
-            document.querySelector('#message').textContent = html;
-        }
-    }).catch(error => {
-        document.querySelector('#message').textContent = 'Error: ' + error.message;
-    });
-});
+// // run when the popup's HTML has completely loaded
+// document.addEventListener('DOMContentLoaded', function() {
+//     getCurrentTabHtml().then(html => {
+//         if (false) {
+//             document.querySelector('#message').textContent = html;
+//         }
+//     }).catch(error => {
+//         document.querySelector('#message').textContent = 'Error: ' + error.message;
+//     });
+// });
 
+//scraping
 async function getCurrentTabHtml() {
     let queryOptions = { active: true, currentWindow: true };
     let [tab] = await chrome.tabs.query(queryOptions);
@@ -35,17 +36,14 @@ function scrapeHtml() {
     return document.documentElement.innerText; // returns text within HTML
 }
 
-// Define the performSearch method
-function performSearch() {
-    // Example functionality: log to console. You can replace this with your actual search logic.
-    console.log("The search button was clicked. Implement search functionality here.");
-}
-
 // Wait for the DOM to be fully loaded
 document.addEventListener("DOMContentLoaded", function() {
-    // Get the search button by its ID
-    var searchButton = document.getElementById('search-button');
-
-    // Attach the click event listener to the search button
-    searchButton.addEventListener('submit', performSearch);
+    document.getElementById('search-form')
+        .addEventListener('submit', performSearch);
 });
+
+function performSearch(event) {
+    event.preventDefault()
+
+    console.log("The search button was clicked. Implement search functionality here.");
+}
