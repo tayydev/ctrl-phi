@@ -1,3 +1,5 @@
+let port = chrome.runtime.connect({name: "popup"});
+
 window.onload = function() {
     document.getElementById('search-input').focus();
 };
@@ -93,7 +95,7 @@ async function performSearch(event) {
         })
 
         outputsDiv.appendChild(newDiv);
-        highlightText(text, customDivId)
+        createLargestPossibleDiv(text, customDivId)
         changeDivBackgroundColor(customDivId, "yellow")
     }
 }
@@ -143,7 +145,7 @@ function wipeDiv(divID) {
     });
 }
 
-function highlightText(text, divId) {
+function createLargestPossibleDiv(text, divId) {
     //helper function runs on the main dom
     function highlightTextHelper(helperText, divId) {
         function highlightTextHelperHelper(helperHelperText, divId) { //naming functions is hard
@@ -156,7 +158,7 @@ function highlightText(text, divId) {
 
             document.body.innerHTML = bodyText.replace(
                 searchRegExp,
-                `<span id=${divId}>${helperHelperText}</span>`
+                `<span id=${divId} class="injected-highlighter">${helperHelperText}</span>`
             );
 
             return true;
