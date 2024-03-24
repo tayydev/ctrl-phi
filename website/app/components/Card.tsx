@@ -1,15 +1,17 @@
 import React from 'react'
 
-const Card = () => {
+interface CardProps {
+    title: string;
+    desc: string;
+  }
+
+const Card: React.FC<CardProps> = ({title, desc}) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg">
-        <img className="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains"></img>
-        <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-            <p className="text-gray-700 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-            </p>
-        </div>
+    <div className='p-5'>
+        <button className="block max-w-xs p-3 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">{title}</h5>
+        <p className="font-normal text-gray-700">{desc}</p>
+        </button>
     </div>
   )
 }

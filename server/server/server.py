@@ -1,9 +1,8 @@
-from typing import List, Optional
-
 from fastapi import FastAPI, HTTPException
 
-from pydantic import BaseModel
+from models import QueryModel, ResponseModel, ResultModel
 from starlette.middleware.cors import CORSMiddleware
+from SearchAgent import SearchAgent
 
 app = FastAPI()
 
@@ -11,25 +10,11 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # Allow requests from all origins
-    allow_credentials=True,  # Allow credentials (cookies, authorization headers)
+    # Allow credentials (cookies, authorization headers)
+    allow_credentials=True,
     allow_methods=["*"],  # Allow all HTTP methods
     allow_headers=["*"],  # Allow all headers
 )
-
-
-class QueryModel(BaseModel):
-    query: str
-    content: str
-
-
-class ResultModel(BaseModel):
-    matched_text: str
-    explanation: str
-
-
-class ResponseModel(BaseModel):
-    query: str
-    results: Optional[List[ResultModel]]
 
 
 def get_example_response(query: str) -> ResponseModel:
@@ -59,9 +44,17 @@ def get_example_response(query: str) -> ResponseModel:
         )
 
 
-@app.post("/api")
+@app.post("/realapi")
 async def read_json(model: QueryModel):
-    if model.query != "why did he die":
-        raise HTTPException(status_code=500, detail="Endpoint not implemented. Try with query='why did he die'")
+    agent = SearchAgent(3)
+    res = agent.search(
+        reference_text=model.content, query=model.query)
+    return res
 
+
+@app.post("/api")
+async def get_json(model: QueryModel):
+    if model.query != "why did he die":
+        raise HTTPException(
+            status_code=500, detail="Endpoint not implemented. Try with query='why did he die'")
     return get_example_response(query=model.query)
