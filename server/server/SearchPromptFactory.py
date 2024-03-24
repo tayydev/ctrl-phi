@@ -17,6 +17,8 @@ You must always respond in the following JSON blob format:
   ]
 }}
 ```
+Escape all double quotes instead of using single quotes as a substitute.
+
 
 Return the top {num_results} results.
 '''
