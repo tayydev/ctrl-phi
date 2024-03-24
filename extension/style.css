@@ -6,20 +6,15 @@ body {
     background-color: #ffffff;
     color: #333;
 }
-h1 {
-    color: #277bdc;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
 
 .search {
-    --padding: 14px;
+    --padding: 10px;
 
     width: max-content;
     display: flex;
     align-items: center;
     padding: var(--padding);
-    border-radius: 28px;
+    border-radius: 20px;
     background: #F6F6F6;
 }
 
@@ -28,19 +23,35 @@ h1 {
 }
 
 .search-input {
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Segoe UI', sans-serif;
     color: #333333;
     margin-left: var(--padding);
     outline: none;
     border: none;
     background: transparent;
-    width: 300px;
+    width: 320px;
     flex: 1;
 }
 
 .search-input::placeholder, .search-icon {
     color: rgba(0, 0, 0, 0.25);
+}
+
+.submit-button {
+    border: none;
+    background-color: #4A90E2;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 8px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #357ABD; /* darker blue on hover */
 }
 
 /* TODO: likely to change when the extension does what it should */
