@@ -32,6 +32,9 @@ const config: Config = {
       animation: {
         fade: 'fadeIn .5s ease-in-out',
         slidein: "slidein 1s ease",
+        slidein300: "slidein 1s ease 500ms forwards",
+        slidein500: "slidein 1s ease 1000ms forwards",
+        slidein700: "slidein 1s ease 1500ms forwards",
       },
     },
   },

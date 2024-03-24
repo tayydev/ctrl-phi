@@ -16,13 +16,13 @@ const Navbar = () => {
                 <div className="w-full flex items-center justify-center py-2" id="navbar-default">
                     <ul className="font-medium flex flex-row justify-center">
                         <li>
-                            <Link href="/" className={`md:text-xl sm:text-md ${path == "/" ? "text-blue-500" : "text-white"} px-2`} aria-current="page">Install</Link>
+                            <Link href="/" className={`md:text-xl sm:text-md ${path == "/" ? "text-blue-500" : "text-white"} px-2`} aria-current="page">About</Link>
                         </li>
                         <li>
                             <Link href="/playground" className={`md:text-xl sm:text-md ${path == "/playground" ? "text-blue-500" : "text-white"} px-2`}>Playground</Link>
                         </li>
                         <li>
-                            <Link href="/about" className={`md:text-xl sm:text-md ${path == "/about" ? "text-blue-500" : "text-white"} px-2`}>About</Link>
+                            <Link href="/install" className={`md:text-xl sm:text-md ${path == "/install" ? "text-blue-500" : "text-white"} px-2`}>Install</Link>
                         </li>
                     </ul>
                 </div>
