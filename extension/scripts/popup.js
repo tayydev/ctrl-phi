@@ -34,3 +34,18 @@ async function getCurrentTabHtml() {
 function scrapeHtml() {
     return document.documentElement.innerText; // returns text within HTML
 }
+
+// Define the performSearch method
+function performSearch() {
+    // Example functionality: log to console. You can replace this with your actual search logic.
+    console.log("The search button was clicked. Implement search functionality here.");
+}
+
+// Wait for the DOM to be fully loaded
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the search button by its ID
+    var searchButton = document.getElementById('search-button');
+
+    // Attach the click event listener to the search button
+    searchButton.addEventListener('click', performSearch);
+});
