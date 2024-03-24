@@ -6,7 +6,7 @@ export default function About() {
             <div className="absolute top-0 w-screen">
                 <Navbar />
             </div>
-            <h1>ABOUT</h1>
+            <div></div>
         </div>
     );
   }
